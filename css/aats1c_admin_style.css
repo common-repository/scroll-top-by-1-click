@@ -1,0 +1,86 @@
+#aats1c_scroll_top{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1000px;
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#aats1c_scroll_top p{
+    font-size: 14px;
+}
+#aats1c_scroll_top_left{
+    width: 55%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #ddd;
+}
+#aats1c_scroll_top form h4{
+    display: inline-block;
+    width: 200px;
+}
+.aats1c_input_style{
+    width: 200px;
+}
+#aats1c_scroll_top input[type="color"]{
+    height: 35px;
+}
+#aats1c_scroll_top input[type="submit"]{
+    width: 400px;
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: #00aeef;
+    border: 1px solid #ddd;
+    color: #fff;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+#aats1c_scroll_top input[type="submit"]:hover{
+    background-color: #1b6884;
+}
+
+/* ========================================= Preview ============================ */
+.aats1c_btn_preview{
+    height: 100px;
+    width: 100%;
+}
+#aats1c_btn_preview_main{
+    overflow: hidden;
+    background-color: #00aeef;
+    height: 30px;
+    width: 30px;
+}
+#aats1c_btn_preview_main img{
+    max-width: 100%;
+    
+}
+
+/* ================================================== Author ==================================== */
+#aats1c_scroll_top_right{
+    width: 40%;
+    text-align: center;
+    padding: 2% 10%;
+}
+#aats1c_scroll_top_right img{
+    max-width: 100%;
+    width: 150px;
+
+}
+#aats1c_scroll_top_right img.author{
+    border: 1px solid #00aeef;
+    border-radius: 50%;
+}
+
+
+/* ================================================== Admin page responsive ======================== */
+@media (max-width: 1096px) {
+    #aats1c_scroll_top input[type="submit"]{
+        margin-top: 10px;
+        width: 200px;
+    }
+    #aats1c_scroll_top form h4{
+        margin-bottom: 0;
+    }
+}

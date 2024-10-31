@@ -1,0 +1,12 @@
+/* Image style */
+#scrollUp {
+    background-size: cover;
+    text-indent: -999999px;
+    display: block;
+
+    /* These CSS will be overwrite */
+    background-image: url(../img/up_black5.png);
+    bottom: 30px;
+    height: 30px;
+    width: 30px;
+}
